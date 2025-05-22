@@ -85,7 +85,7 @@ Soy estudiante de **Informática Administrativa** en la **UNAH (Universidad Naci
 
 <div align="center">
   
-  ![Visitor Count](https://komarev.com/ghpvc/?username=TU_USERNAME&color=brightgreen&style=flat-square&label=Visitantes)
+  ![Visitor Count](https://komarev.com/ghpvc/?username=JR7-React&color=brightgreen&style=flat-square&label=Visitantes)
   
   *"El código es poesía escrita para las máquinas, pero leída por humanos"* 💻✨
   
