@@ -363,3 +363,5 @@ learning_path = {
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JR7-React&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
