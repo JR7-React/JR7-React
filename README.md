@@ -233,7 +233,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 </tr>
 </table>
 
-#### Reportes & Planificación Familiar
+#### Reportes & Gestion de enfermedades segun catalogo CIE10
 <table>
 <tr>
 <td width="50%">
@@ -241,8 +241,8 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <p><i>Reportes automatizados PDF/Excel</i></p>
 </td>
 <td width="50%">
-<img src="https://github.com/user-attachments/assets/e7402877-8557-4369-9027-7d1745f64db5" alt="Planificación Familiar" width="100%"/>
-<p><i>Módulo de planificación familiar</i></p>
+<img width="1799" height="883" alt="image" src="https://github.com/user-attachments/assets/c1e399d1-0e70-4742-b54b-80878bf416e1" />
+<p><i>Gestión de enfermedades Catalogadas segun versión medica oficial CIE10</i></p>
 </td>
 </tr>
 </table>
