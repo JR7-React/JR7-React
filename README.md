@@ -1,7 +1,7 @@
 <div align="center">
   
 
-https://github.com/user-attachments/assets/bafeacad-eab4-46cf-ad2b-799c417f54ff
+![grok-video-ece4a307-6cb7-4247-a1ab-c69b9f167ff1](https://github.com/user-attachments/assets/e4580b89-87ea-4705-9ffe-89323fca769a)
 
 
 # 👨‍💻 Javier Romero
