@@ -295,7 +295,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 
 <div align="center">
   
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=JR7-React&theme=vue-dark)](https://git.io/streak-stats)
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=JR7-React&theme=vue-dark" alt="GitHub Streak" /></a>
   
 </div>
 
