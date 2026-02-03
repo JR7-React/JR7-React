@@ -299,7 +299,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 
 <div align="center">
   
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=JR7-React&theme=radical&hide_border=false&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=JR7-React)](https://git.io/streak-stats)
   
 </div>
 
