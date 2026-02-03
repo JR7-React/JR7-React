@@ -88,12 +88,62 @@ Me gustan los desafíos que combinan **backend + frontend**, la **automatizació
 
 ## 🛠️ En lo que estoy trabajando
 
-* 🚀 Profundizando en **desarrollo full‑stack** con Python + TypeScript
-* ⏱️ Experimentando con **Celery + Redis** para tareas asíncronas
-* 📊 Explorando **Polars** y **Pandas** para análisis de datos de alto rendimiento
-* 🤝 Contribuyendo a **proyectos open‑source** siempre que puedo
 
 ---
+🏥 Sistema de Gestión Médica Integral (Offline-First)
+Este proyecto es una solución completa para la gestión de centros de salud, diseñada específicamente para operar en entornos con conectividad intermitente. Implementa una arquitectura robusta Offline-First que garantiza la continuidad operativa sin importar el estado de la red.
+
+🚀 Características Destacadas
+Arquitectura Offline-First: Sistema de sincronización bidireccional avanzado entre IndexedDB y PostgreSQL. Los datos se guardan localmente primero (Optimistic UI) y se sincronizan en segundo plano cuando hay conexión.
+Gestión de Inventarios Críticos: Control preciso de lotes, fechas de vencimiento y alertas automáticas de stock bajo.
+Formatos Médicos Dinámicos: Módulos especializados para Planificación Familiar, Atención Integral a la Niñez (AIEPI), Control Puerperal y más, manejados via Wizards interactivos.
+Alto Rendimiento: Implementación de Virtualización para manejar listas masivas (ej. catálogo CIE-10 con miles de diagnósticos) sin afectar el rendimiento del DOM.
+Reportes Automatizados: Generación de reportes PDF y Excel en segundo plano utilizando colas de tareas asíncronas.
+🛠️ Tecnologías Implementadas
+Frontend (SPA & PWA)
+Core: React 18 + Vite (Optimizado para carga rápida).
+UI/UX: Material UI v5 con un sistema de diseño personalizado y tema responsivo.
+Persistencia Local: Dexie.js para manejo avanzado de IndexedDB.
+Estado & Formularios: React Hook Form + Zod para validaciones complejas.
+Optimización: react-virtuoso para virtualización de listas largas y Web Workers para procesos pesados.
+Visualización: ApexCharts para dashboards estadísticos.
+Backend (API REST)
+Framework: Django + Django REST Framework.
+Base de Datos: PostgreSQL (Producción) con optimizaciones de índices.
+Asincronía: Celery + Redis para procesamiento de tareas en background (reportes diarios, alertas de vencimiento).
+Seguridad: Autenticación JWT y sistema de roles granular.
+DevOps & Infraestructura
+Contenerización: Docker y Docker Compose para entornos de desarrollo y producción consistentes.
+Despliegue: Optimizado para Railway/Cloud.
+CI/CD: Configuración lista para integración continua.
+⚡ Optimizaciones Clave
+Sincronización Inteligente:
+Algoritmo de reconciliación de IDs para manejar creaciones offline.
+Colas de sincronización (Sync Queue) resilientes a fallos.
+Detección automática de conectividad.
+Rendimiento en Frontend:
+Lazy Loading de módulos y componentes pesados.
+Uso de useMemo y useCallback para minimizar re-renders en formularios complejos.
+Virtualización de tablas de inventario y selectores de diagnóstico.
+Eficiencia en Backend:
+Consultas optimizadas con select_related y prefetch_related para evitar problemas N+1.
+Uso de tareas programadas (Celery Beat) para mantenimientos de base de datos y reportes.
+
+Link del proyecto: https://saludparavivir.fundesur.org/
+
+Imagenes:
+<img width="1915" height="990" alt="image" src="https://github.com/user-attachments/assets/93f1399c-d248-4965-a4fc-7282eba0ab49" />
+<img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/28495c69-6c10-4e26-85c6-d3e81f5e8bad" />
+<img width="1915" height="988" alt="image" src="https://github.com/user-attachments/assets/d0118e57-f1e3-4c6f-a4a0-2d66a81cbeea" />
+<img width="1914" height="971" alt="image" src="https://github.com/user-attachments/assets/d180c5b2-7669-4eb2-b17a-ea52563a08c9" />
+<img width="971" height="889" alt="image" src="https://github.com/user-attachments/assets/df672e4c-67ca-4712-a966-cdb3f90a7d6b" />
+<img width="1763" height="950" alt="image" src="https://github.com/user-attachments/assets/1795c1ea-1f31-4517-adc7-d1455df82806" />
+<img width="1793" height="891" alt="image" src="https://github.com/user-attachments/assets/0b5cf65f-d1b8-4bad-af81-a0811d4645d1" />
+<img width="1791" height="986" alt="image" src="https://github.com/user-attachments/assets/e7402877-8557-4369-9027-7d1745f64db5" />
+<img width="518" height="970" alt="image" src="https://github.com/user-attachments/assets/f4de498a-238a-4a3d-b8ac-2736a6867383" />
+<img width="502" height="364" alt="image" src="https://github.com/user-attachments/assets/cb0b5f92-2610-4caf-9a4c-e47bbd1bda73" />
+
+
 
 ## 📫 ¡Conectemos!
 
@@ -101,7 +151,6 @@ Me gustan los desafíos que combinan **backend + frontend**, la **automatizació
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/javi-romero-85486833a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:javierromero181818@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge\&logo=google-chrome\&logoColor=white)](https://tu-portfolio.com)
 
 </div>
 
