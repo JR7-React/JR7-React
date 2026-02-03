@@ -203,7 +203,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <p><i>Dashboard con métricas en tiempo real</i></p>
 </td>
 <td width="50%">
-<img src="https://github.com/user-attachments/assets/28495c69-6c10-4e26-85c6-d3e81f5e8bad" alt="Estadísticas" width="100%"/>
+<img width="480" height="650" alt="image" src="https://github.com/user-attachments/assets/821169af-456a-4ef6-9142-baed69d7b574" />
 <p><i>Gráficos y análisis de datos</i></p>
 </td>
 </tr>
