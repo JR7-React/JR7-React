@@ -90,6 +90,8 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-FF6B35?style=for-the-badge&logoColor=white)
 
 </details>
 
