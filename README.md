@@ -200,6 +200,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <tr>
 <td width="50%">
 <img src="https://github.com/user-attachments/assets/93f1399c-d248-4965-a4fc-7282eba0ab49" alt="Dashboard Principal" width="100%"/>
+<img width="478" height="653" alt="image" src="https://github.com/user-attachments/assets/d01f475d-0555-43c0-8889-074fb2e72514" />
 <p><i>Dashboard con métricas en tiempo real</i></p>
 </td>
 <td width="50%">
@@ -227,7 +228,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <table>
 <tr>
 <td width="50%">
-<img src="https://github.com/user-attachments/assets/df672e4c-67ca-4712-a966-cdb3f90a7d6b" alt="Control de Inventario" width="100%"/>
+<img width="1918" height="982" alt="image" src="https://github.com/user-attachments/assets/6bac3d26-744b-4580-bf92-eff649cca9bb" />
 <p><i>Gestión de medicamentos y lotes</i></p>
 </td>
 <td width="50%">
