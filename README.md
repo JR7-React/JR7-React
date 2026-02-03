@@ -2,10 +2,6 @@
 
 # 👨‍💻 Javier Romero
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&<div align="center">
-
-# 👨‍💻 Javier Romero
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=Desarrollador+Full-Stack+en+Formación;Estudiante+de+Informática+Administrativa;Especializado+en+React+%2B+Django;Honduras+🇭🇳+%7C+24+Años;Construyendo+el+futuro+con+código)](https://git.io/typing-svg)
 
 <p align="center">
