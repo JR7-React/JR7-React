@@ -265,7 +265,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 </tr>
 </table>
 
-#### Vista Móvil Responsive
+#### Otras caracteristicas
 <table>
 <tr>
 <td width="33%">
@@ -274,7 +274,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 </td>
 <td width="33%">
 <img src="https://github.com/user-attachments/assets/cb0b5f92-2610-4caf-9a4c-e47bbd1bda73" alt="Mobile View 2" width="100%"/>
-<p><i>Formularios optimizados</i></p>
+<p><i>Cola de sync </i></p>
 </td>
 <td width="33%">
 <img src="https://github.com/user-attachments/assets/f2036891-8872-49fb-99e3-cc5a72283059" alt="PWA Offline" width="100%"/>
