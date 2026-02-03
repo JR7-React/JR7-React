@@ -30,7 +30,7 @@ const javier = {
   ubicacion: "Honduras 🇭🇳",
   educacion: "Informática Administrativa - UNAH",
   estado: "Prácticas Profesionales",
-  enfoque: ["Full-Stack Development", "Offline-First Apps", "Data Analysis"],
+  enfoque: ["Full-Stack Development", "Offline-First Apps", "Data Analysis", "Desarrollo con IA"],
   objetivo: "Convertirme en un desarrollador Full-Stack con expertise en Cloud & DevOps",
   hobbies: ["Automatización", "Open Source", "Nuevas Tecnologías"]
 };
