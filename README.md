@@ -1,7 +1,7 @@
 <div align="center">
   
 
-![grok-video-ece4a307-6cb7-4247-a1ab-c69b9f167ff1](https://github.com/user-attachments/assets/e4580b89-87ea-4705-9ffe-89323fca769a)
+<img src="https://github.com/user-attachments/assets/e4580b89-87ea-4705-9ffe-89323fca769a" alt="JR7Dev Logo" width="400"/>
 
 
 # 👨‍💻 Javier Romero
