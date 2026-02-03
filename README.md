@@ -260,6 +260,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 </td>
 <td width="33%">
 <p align="center">📱</p>
+<img width="1798" height="979" alt="image" src="https://github.com/user-attachments/assets/f2036891-8872-49fb-99e3-cc5a72283059" />
 <p><i>PWA con soporte offline completo</i></p>
 </td>
 </tr>
