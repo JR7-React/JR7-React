@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="./logo-animated.svg" alt="JR7Dev Logo" width="400" height="267"/>
+https://github.com/user-attachments/assets/89a573fe-e9e9-465a-8ad7-d94dca01ab03
   
 # 👨‍💻 Javier Romero
 
