@@ -237,7 +237,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <table>
 <tr>
 <td width="50%">
-<img src="https://github.com/user-attachments/assets/0b5cf5f6-d1b8-4bad-af81-a0811d4645d1" alt="Generación de Reportes" width="100%"/>
+<img width="1895" height="702" alt="image" src="https://github.com/user-attachments/assets/bfa14336-86b9-498f-ad41-374c787ec1d3" />
 <p><i>Reportes automatizados PDF/Excel</i></p>
 </td>
 <td width="50%">
