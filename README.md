@@ -241,7 +241,7 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <table>
 <tr>
 <td width="50%">
-<img src="https://github.com/user-attachments/assets/0b5cf5f6-d1b8-4bad-af81-a0811d4645d1" alt="Generación de Reportes" width="100%"/>
+<img width="1883" height="676" alt="image" src="https://github.com/user-attachments/assets/b27675d0-05ca-4875-b433-4ffbb68c417a" />
 <p><i>Reportes automatizados PDF/Excel</i></p>
 </td>
 <td width="50%">
@@ -255,11 +255,11 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 <table>
 <tr>
 <td width="50%">
-<img src="/mnt/user-data/uploads/1770149971380_image.png" alt="Alerta de Inventario" width="100%"/>
+ <img width="454" height="586" alt="image" src="https://github.com/user-attachments/assets/892c10aa-f8c1-42f5-85ed-f0b17fbec3aa" />
 <p><i>Alertas automáticas de ruptura de stock con niveles de severidad crítica</i></p>
 </td>
 <td width="50%">
-<img src="/mnt/user-data/uploads/1770150010915_image.png" alt="Reporte Automático Email" width="100%"/>
+<img width="474" height="633" alt="image" src="https://github.com/user-attachments/assets/1ac6773d-75a9-4b52-81c2-2f404c616aa0" />
 <p><i>Generación y envío automático de reportes por email</i></p>
 </td>
 </tr>
