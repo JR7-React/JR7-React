@@ -113,7 +113,7 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 
 ### 🏥 Sistema de Gestión Médica Integral (Offline-First)
 
-[![Live Demo](https://img.shields.io/badge/🌐_Demo_en_Vivo-saludparavivir.fundesur.org-success?style=for-the-badge)](https://saludparavivir.fundesur.org/)
+[![Live Demo](https://img.shields.io/badge/🌐_Sistema_en_vivo-saludparavivir.fundesur.org-success?style=for-the-badge)](https://saludparavivir.fundesur.org/)
 [![Status](https://img.shields.io/badge/Estado-En_Producción-brightgreen?style=for-the-badge)]()
 
 </div>
