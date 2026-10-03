@@ -36,7 +36,7 @@ const javier = {
 };
 ```
 
-Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas reales. Me especializo en aplicaciones **Offline-First** y arquitecturas robustas que funcionan incluso sin conexión a internet. Actualmente enfocado en proyectos de **impacto social** en el sector salud.
+Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas reales. Me especializo en aplicaciones **Offline-First** y arquitecturas robustas que funcionan incluso sin conexión a internet. Actualmente enfocado en proyectos de **impacto social** en salud, infraestructura comunitaria y monitoreo de proyectos.
 
 ---
 
@@ -74,6 +74,7 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 <br/>
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -87,6 +88,7 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
@@ -107,7 +109,7 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 
 ---
 
-## 🏆 Proyecto Destacado
+## 🏆 Proyectos Destacados en Producción
 
 <div align="center">
 
@@ -292,6 +294,155 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 
 ---
 
+<div align="center">
+
+### 🌐 SGC FUNDESUR — Sistema de Gestión, Monitoreo & Evaluación con IA (Offline-First)
+
+[![Live Demo](https://img.shields.io/badge/🌐_Sistema_en_vivo-sgc.fundesur.org-success?style=for-the-badge)](https://sgc.fundesur.org/)
+[![Status](https://img.shields.io/badge/Estado-En_Producción-brightgreen?style=for-the-badge)]()
+
+</div>
+
+**Plataforma integral de recolección en campo, análisis geoespacial e inteligencia artificial para proyectos de desarrollo social** 🚀
+
+Solución integral diseñada para gestionar y supervisar el ciclo completo de monitoreo y evaluación de intervenciones sociales (módulos sanitarios, escuelas, centros de salud). Creada para operar en comunidades rurales sin conectividad mediante una arquitectura **Offline-First**, sincronización inteligente bidireccional, analítica asistida por IA y visualización geoespacial con PostGIS.
+
+### ✨ Características Principales
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🔄 **Arquitectura Offline-First & Sync**
+- Sincronización bidireccional IndexedDB (Dexie 4) ↔ PostgreSQL 16 + PostGIS
+- Cola de cambios resiliente con resolución de conflictos por entidad
+- Operatividad 100% autónoma en campo rural sin pérdida de información
+
+#### 📝 **Constructor Dinámico de Formularios**
+- Motor visual drag & drop con +22 tipos de campos y lógica condicional
+- Captura de evidencia multimedia georreferenciada (foto, audio, video, firma digital)
+- Almacenamiento seguro en Cloudflare R2 mediante URLs prefirmadas
+
+</td>
+<td width="50%">
+
+#### 🤖 **Analítica e IA Asistida (Claude)**
+- Consultas en lenguaje natural en español con ejecución analítica segura
+- Generación dinámica de tableros interactivos y reportes con ApexCharts
+- Detección de patrones y resúmenes automáticos de levantamientos
+
+#### 🗺️ **Inteligencia Geoespacial & Longitudinal**
+- Mapas interactivos con MapLibre GL JS + PostGIS (sin dependencia de APIs de pago)
+- Mapas de calor por densidad y filtrado multi-capa de comunidades
+- Historial longitudinal de beneficiarios por clave única para seguimiento multi-proyecto
+
+</td>
+</tr>
+</table>
+
+### 🛠️ Stack Tecnológico del Proyecto
+
+<div align="center">
+
+| **Capa** | **Tecnologías** |
+|:--------:|:---------------:|
+| **Frontend** | React 18 • TypeScript • Vite • Material UI v5 • TailwindCSS • Dexie.js (IndexedDB) |
+| **Backend** | Python 3.12 • Django 5 • Django REST Framework • PostGIS • Celery • Django Channels |
+| **IA & Geoespacial** | Claude API (Anthropic) • MapLibre GL JS • PostGIS 3 • OpenFreeMap • ApexCharts |
+| **Cloud & DevOps** | Docker • Docker Compose • Railway • Cloudflare R2 • Redis 7 |
+
+</div>
+
+### 🎯 Optimizaciones Clave
+
+```javascript
+// Sincronización & Resiliencia en Campo
+✓ Protocolo push/pull con marcas de tiempo y resolución inteligente de conflictos
+✓ Persistencia local transaccional resistente a apagados inesperados en campo
+✓ Compresión y procesamiento en cliente de multimedia antes del upload a R2
+
+// Inteligencia Geoespacial & Datos
+✓ Queries geoespaciales de alto rendimiento con índices GiST en PostGIS
+✓ Visualización fluida de polígonos y puntos comunitarios con MapLibre GL
+✓ Modelo longitudinal con soft-delete y trazabilidad inmutable de auditoría
+
+// IA Asistida & Rendimiento Backend
+✓ Consultas en lenguaje natural con tool use seguro hacia la base de datos
+✓ Exportaciones masivas a Excel generadas en segundo plano con Celery + Redis
+✓ Notificaciones en tiempo real y eventos de sincronización con WebSockets
+```
+
+---
+
+### 📸 Galería del Proyecto
+
+<details open>
+<summary><b>🖼️ Ver Capturas de Pantalla (Click para expandir)</b></summary>
+
+<div align="center">
+
+#### Dashboard Principal & Análisis Geoespacial
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/tablero-principal.jpg" alt="Dashboard Principal" width="100%"/>
+<p><i>Tablero principal con métricas de avance y cumplimiento de metas</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/mapa-geoespacial.jpg" alt="Mapa Geoespacial" width="100%"/>
+<p><i>Visualización geoespacial de comunidades e intervenciones</i></p>
+</td>
+</tr>
+</table>
+
+#### Analítica de Indicadores & Georreferenciación en Detalle
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/analitica-indicadores.jpg" alt="Analítica e Indicadores" width="100%"/>
+<p><i>Gráficos interactivos y análisis demográfico de comunidades</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/mapa-interactivo-detalle.png" alt="Georreferenciación Detallada" width="100%"/>
+<p><i>Georreferenciación y ficha de intervención en mapa interactivo</i></p>
+</td>
+</tr>
+</table>
+
+#### Gestión de Fichas & Constructor de Formularios
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/bandeja-fichas.jpg" alt="Gestión de Fichas" width="100%"/>
+<p><i>Bandejas de proyectos y fichas dinámicas por estado</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-fichas.jpg" alt="Constructor de Formularios" width="100%"/>
+<p><i>Constructor de preguntas y validaciones paso a paso</i></p>
+</td>
+</tr>
+</table>
+
+#### Recolección Offline en Campo & Asignación de Trabajo
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/offline-sin-senal.jpg" alt="PWA Offline sin señal" width="100%"/>
+<p><i>Operatividad 100% offline y sincronización diferida en campo sin señal</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/trabajo-en-campo.jpg" alt="Trabajo Asignado en Campo" width="100%"/>
+<p><i>Gestión de trabajo asignado y levantamientos en dispositivos de campo</i></p>
+</td>
+</tr>
+</table>
+
+</div>
+
+</details>
+
+---
+
 ## 📊 Estadísticas de GitHub
 
 
@@ -341,7 +492,8 @@ learning_path = {
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javi-romero-85486833a/)
 [![Email](https://img.shields.io/badge/Email-Contactar-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:javierromero181818@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-2E9EF7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://saludparavivir.fundesur.org/)
+[![Salud Para Vivir](https://img.shields.io/badge/Salud_Para_Vivir-Visitar-2E9EF7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://saludparavivir.fundesur.org/)
+[![SGC FUNDESUR](https://img.shields.io/badge/SGC_FUNDESUR-Visitar-0081CB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sgc.fundesur.org/)
 
 </div>
 
