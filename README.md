@@ -481,18 +481,7 @@ Solución integral diseñada para garantizar la continuidad operativa en la aten
   <img src="https://github-readme-streak-stats.herokuapp.com?user=JR7-React&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 
-<br/><br/>
-
-<table>
-<tr>
-<td width="50%" align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JR7-React&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="100%"/>
-</td>
-<td width="50%" align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JR7-React&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="100%"/>
-</td>
-</tr>
-</table>
+<p><i>Telemetría verificada: <strong>+13,000 contribuciones registradas</strong> y <strong>+260 días de racha activa</strong> en desarrollo de software de misión crítica.</i></p>
 
 </div>
 
