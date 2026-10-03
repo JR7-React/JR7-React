@@ -47,7 +47,9 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 <br/>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -63,6 +65,7 @@ Estudiante apasionado por crear soluciones tecnológicas que resuelvan problemas
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Model Context Protocol](https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge&logoColor=white)
 ![Django Channels](https://img.shields.io/badge/Django_Channels-148599?style=for-the-badge&logo=django&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -296,45 +299,62 @@ Plataforma robusta diseñada para operar en entornos con acceso limitado a inter
 
 <div align="center">
 
-### 🌐 SGC FUNDESUR — Sistema de Gestión, Monitoreo & Evaluación con IA (Offline-First)
+### 🌐 SGC FUNDESUR — Plataforma Enterprise de Monitoreo & Evaluación (M&E) Offline-First con Servidor MCP para IA
 
 [![Live Demo](https://img.shields.io/badge/🌐_Sistema_en_vivo-sgc.fundesur.org-success?style=for-the-badge)](https://sgc.fundesur.org/)
 [![Status](https://img.shields.io/badge/Estado-En_Producción-brightgreen?style=for-the-badge)]()
+[![AI Protocol](https://img.shields.io/badge/AI_Protocol-Model_Context_Protocol_(MCP)-8A2BE2?style=for-the-badge&logoColor=white)]()
 
 </div>
 
-**Plataforma integral de recolección en campo, análisis geoespacial e inteligencia artificial para proyectos de desarrollo social** 🚀
+**Arquitectura distribuida Offline-First, constructor drag-and-drop de formularios, tableros modulares personalizables y servidor MCP integrado con Claude para análisis en lenguaje natural.** 🚀
 
-Solución integral diseñada para gestionar y supervisar el ciclo completo de monitoreo y evaluación de intervenciones sociales (módulos sanitarios, escuelas, centros de salud). Creada para operar en comunidades rurales sin conectividad mediante una arquitectura **Offline-First**, sincronización inteligente bidireccional, analítica asistida por IA y visualización geoespacial con PostGIS.
+Plataforma de grado empresarial desarrollada para la gestión, recolección en campo y evaluación de proyectos de desarrollo social de alto impacto (módulos sanitarios, infraestructura educativa, centros comunitarios). Diseñada para operar en zonas rurales sin conectividad mediante sincronización bidireccional resiliente, garantizando integridad de datos, visualización geoespacial con PostGIS y consultas analíticas seguras mediante **Model Context Protocol (MCP)**.
 
-### ✨ Características Principales
+### ✨ Capacidades de Ingeniería y Arquitectura
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🔄 **Arquitectura Offline-First & Sync**
-- Sincronización bidireccional IndexedDB (Dexie 4) ↔ PostgreSQL 16 + PostGIS
-- Cola de cambios resiliente con resolución de conflictos por entidad
-- Operatividad 100% autónoma en campo rural sin pérdida de información
+#### 🤖 **Servidor MCP Propietario (Model Context Protocol)**
+- Servidor MCP nativo en Django (`analyst_mcp`) para analistas de datos
+- Integración directa con **Claude Desktop** y **Claude Web**
+- Autorización segura con **OAuth 2.1 + PKCE** integrada con 2FA TOTP y revocación in-process
+- **Doble candado de seguridad (Dual-Lock Readonly)**: análisis sintáctico AST de SQL (`sqlparse`, no regex) + rol PostgreSQL `analyst_readonly` con `statement_timeout`
+- Auditoría forense inmutable de cada consulta (`AnalystQueryLog`)
 
-#### 📝 **Constructor Dinámico de Formularios**
-- Motor visual drag & drop con +22 tipos de campos y lógica condicional
-- Captura de evidencia multimedia georreferenciada (foto, audio, video, firma digital)
-- Almacenamiento seguro en Cloudflare R2 mediante URLs prefirmadas
+#### 📝 **Constructor Visual de Formularios (Drag & Drop)**
+- Motor visual interactivo implementado con **`@dnd-kit/core`** y **`@dnd-kit/sortable`**
+- Catálogo de **+22 tipos de campos** (firmas digitales, GPS, polígonos, multimedia)
+- Motor reactivo de **lógica condicional multinivel** (bifurcaciones por respuesta única/múltiple)
+- Versionado de esquemas, biblioteca de preguntas reusables y validación estricta con **React Hook Form**
+
+#### 📊 **Constructor de Dashboards Modulares & Pizarra**
+- Sistema de cuadrícula dinámica personalizable con **`react-grid-layout`** y **`react-resizable`**
+- Motor de visualización en **SVG nativo** optimizado para ultra-rendimiento (*MaxPerformance mode*)
+- Widgets analíticos avanzados: embudos operativos, treemaps jerárquicos, matrices de dispersión, heatmaps de actividad y waterfall de avance
+- Filtros dimensionales dinámicos por proyecto, territorio y fechas
 
 </td>
 <td width="50%">
 
-#### 🤖 **Analítica e IA Asistida (Claude)**
-- Consultas en lenguaje natural en español con ejecución analítica segura
-- Generación dinámica de tableros interactivos y reportes con ApexCharts
-- Detección de patrones y resúmenes automáticos de levantamientos
+#### 🔄 **Arquitectura Offline-First de Grado Crítico**
+- Persistencia local transaccional con **Dexie.js v4 (IndexedDB)**
+- Cola de cambios resiliente con tolerancia a reinicios de dispositivo o pérdida de batería en campo
+- Sincronización push/pull bidireccional con reconciliación de IDs locales (UUIDs) a PKs de servidor (BIGINT)
+- Detección reactiva de estado de red (`navigator.onLine`) y panel dedicado de resolución de conflictos
 
-#### 🗺️ **Inteligencia Geoespacial & Longitudinal**
-- Mapas interactivos con MapLibre GL JS + PostGIS (sin dependencia de APIs de pago)
-- Mapas de calor por densidad y filtrado multi-capa de comunidades
-- Historial longitudinal de beneficiarios por clave única para seguimiento multi-proyecto
+#### ⚡ **Gestión de Estado Servidor con TanStack Query v5**
+- Gestión desacoplada del estado del servidor mediante **`@tanstack/react-query`**
+- Actualizaciones optimistas (**Optimistic UI**) para latencia percibida cero
+- Invalidación quirúrgica de cache, revalidación en background y deduplicación de requests
+
+#### 🗺️ **Inteligencia Geoespacial & Rendimiento Asíncrono**
+- Integración GIS con **PostgreSQL 16 + PostGIS 3** utilizando índices espaciales **GiST**
+- Mapas vectoriales interactivos con **MapLibre GL JS** y OpenFreeMap (sin vendor lock-in ni costos por API keys)
+- Trazabilidad y seguimiento longitudinal de beneficiarios por clave única (DPI/Cédula)
+- Tareas pesadas asíncronas con **Celery 5 + Redis 7** y WebSockets con **Django Channels 4**
 
 </td>
 </tr>
@@ -346,30 +366,35 @@ Solución integral diseñada para gestionar y supervisar el ciclo completo de mo
 
 | **Capa** | **Tecnologías** |
 |:--------:|:---------------:|
-| **Frontend** | React 18 • TypeScript • Vite • Material UI v5 • TailwindCSS • Dexie.js (IndexedDB) |
-| **Backend** | Python 3.12 • Django 5 • Django REST Framework • PostGIS • Celery • Django Channels |
-| **IA & Geoespacial** | Claude API (Anthropic) • MapLibre GL JS • PostGIS 3 • OpenFreeMap • ApexCharts |
-| **Cloud & DevOps** | Docker • Docker Compose • Railway • Cloudflare R2 • Redis 7 |
+| **Frontend Core** | React 18 • TypeScript Strict • TanStack Query v5 • Vite • Material UI v5 • TailwindCSS |
+| **Interactive UX** | @dnd-kit (Form Builder) • react-grid-layout & react-resizable (Dashboard Builder) • Framer Motion |
+| **Offline & Storage** | Dexie.js v4 (IndexedDB) • PWA (Service Workers & Workbox) • Cloudflare R2 (S3-compatible) |
+| **Backend & APIs** | Python 3.12 • Django 5 • Django REST Framework • Celery 5 • Redis 7 • Django Channels 4 |
+| **IA & Protocolo MCP** | Model Context Protocol (MCP) Server • OAuth 2.1 + PKCE • Claude Desktop/Web • AST SQL Guard (`sqlparse`) |
+| **Geoespacial (GIS)** | PostgreSQL 16 • PostGIS 3 (índices GiST) • MapLibre GL JS • OpenFreeMap |
+| **Infraestructura** | Docker • Docker Compose • Railway • Contenedores de desarrollo y producción |
 
 </div>
 
-### 🎯 Optimizaciones Clave
+### 🎯 Decisiones de Arquitectura & Optimizaciones Clave
 
 ```javascript
-// Sincronización & Resiliencia en Campo
-✓ Protocolo push/pull con marcas de tiempo y resolución inteligente de conflictos
-✓ Persistencia local transaccional resistente a apagados inesperados en campo
-✓ Compresión y procesamiento en cliente de multimedia antes del upload a R2
+// Protocolo MCP & Seguridad de Inteligencia Artificial
+✓ Servidor MCP integrado: expone herramientas M&E curadas para Claude sin exponer la base de datos
+✓ Dual-Lock Readonly: validación de sintaxis SQL a nivel AST (sqlparse) + rol PostgreSQL de solo lectura
+✓ Autenticación OAuth 2.1 con PKCE vinculada al modelo de usuarios, sesiones activas y 2FA TOTP
 
-// Inteligencia Geoespacial & Datos
-✓ Queries geoespaciales de alto rendimiento con índices GiST en PostGIS
-✓ Visualización fluida de polígonos y puntos comunitarios con MapLibre GL
-✓ Modelo longitudinal con soft-delete y trazabilidad inmutable de auditoría
+// Arquitectura de Frontend & Builders Interactivos
+✓ Form Builder reactivo: drag-and-drop accesible con @dnd-kit y evaluación dinámica de condiciones
+✓ Dashboard Builder con react-grid-layout: layout responsive reordenable, redimensionable y persistible
+✓ Renderizado analítico en SVG puro con MaxPerformance Mode: cero lag, sin dependencias pesadas
+✓ State Management con TanStack Query v5: mutaciones optimistas y cache local sincronizado con Dexie.js
 
-// IA Asistida & Rendimiento Backend
-✓ Consultas en lenguaje natural con tool use seguro hacia la base de datos
-✓ Exportaciones masivas a Excel generadas en segundo plano con Celery + Redis
-✓ Notificaciones en tiempo real y eventos de sincronización con WebSockets
+// Resiliencia Offline & Backend Distribuido
+✓ Transacciones locales en IndexedDB que resisten interrupciones abruptas de energía en campo
+✓ Protocolo de sincronización incremental por lotes (25-50 registros) con manejo visual de conflictos
+✓ Consultas geoespaciales de alta velocidad en PostGIS mediante indexación GiST sobre coordenadas y polígonos
+✓ Generación asíncrona de reportes y exports masivos en segundo plano vía Celery + Redis
 ```
 
 ---
@@ -381,58 +406,72 @@ Solución integral diseñada para gestionar y supervisar el ciclo completo de mo
 
 <div align="center">
 
-#### Dashboard Principal & Análisis Geoespacial
+#### 🤖 Integración de IA mediante Model Context Protocol (MCP)
 <table>
 <tr>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/tablero-principal.jpg" alt="Dashboard Principal" width="100%"/>
-<p><i>Tablero principal con métricas de avance y cumplimiento de metas</i></p>
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/conector-mcp-claude.jpg" alt="Conector MCP en Claude" width="100%"/>
+<p><i>Integración nativa con Claude Desktop/Web mediante conector personalizado MCP</i></p>
 </td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/conector-mcp-acceso.jpg" alt="Permisos MCP y OAuth 2.1" width="100%"/>
+<p><i>Gestión de permisos de analista con OAuth 2.1 + PKCE y autenticación 2FA</i></p>
+</td>
+</tr>
+</table>
+
+#### 📝 Constructor Visual de Formularios (Drag & Drop con @dnd-kit)
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-formularios-lienzo.jpg" alt="Constructor de Formularios" width="100%"/>
+<p><i>Lienzo interactivo: reordenamiento visual de secciones y preguntas con @dnd-kit</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-formularios-condicional.jpg" alt="Lógica Condicional" width="100%"/>
+<p><i>Motor de lógica condicional: reglas de salto y visibilidad reactiva de preguntas</i></p>
+</td>
+</tr>
+</table>
+
+#### 📊 Constructor de Dashboards Modulares & Pizarra Analítica
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-dashboard-personalizar.jpg" alt="Personalizar Dashboard" width="100%"/>
+<p><i>Pizarra interactiva con react-grid-layout: widgets modulares y redimensionables</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-dashboard-elegir-grafica.jpg" alt="Selector de Gráfica" width="100%"/>
+<p><i>Constructor de widgets: selección de gráficas analíticas de alto rendimiento en SVG</i></p>
+</td>
+</tr>
+</table>
+
+#### 🔄 Arquitectura Offline-First & Sincronización Resiliente
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/sync-bandeja.jpg" alt="Bandeja de Sincronización" width="100%"/>
+<p><i>Bandeja de sincronización: cola local transaccional con Dexie.js (IndexedDB)</i></p>
+</td>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/sync-resolucion-conflictos.jpg" alt="Resolución de Conflictos" width="100%"/>
+<p><i>Resolución granular de conflictos de sincronización offline ↔ PostgreSQL</i></p>
+</td>
+</tr>
+</table>
+
+#### 🗺️ Inteligencia Geoespacial & Levantamiento Rural en Campo
+<table>
+<tr>
 <td width="50%">
 <img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/mapa-geoespacial.jpg" alt="Mapa Geoespacial" width="100%"/>
-<p><i>Visualización geoespacial de comunidades e intervenciones</i></p>
-</td>
-</tr>
-</table>
-
-#### Analítica de Indicadores & Georreferenciación en Detalle
-<table>
-<tr>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/analitica-indicadores.jpg" alt="Analítica e Indicadores" width="100%"/>
-<p><i>Gráficos interactivos y análisis demográfico de comunidades</i></p>
+<p><i>Mapeo territorial con PostGIS (índices GiST) y MapLibre GL JS</i></p>
 </td>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/mapa-interactivo-detalle.png" alt="Georreferenciación Detallada" width="100%"/>
-<p><i>Georreferenciación y ficha de intervención en mapa interactivo</i></p>
-</td>
-</tr>
-</table>
-
-#### Gestión de Fichas & Constructor de Formularios
-<table>
-<tr>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/bandeja-fichas.jpg" alt="Gestión de Fichas" width="100%"/>
-<p><i>Bandejas de proyectos y fichas dinámicas por estado</i></p>
-</td>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/constructor-fichas.jpg" alt="Constructor de Formularios" width="100%"/>
-<p><i>Constructor de preguntas y validaciones paso a paso</i></p>
-</td>
-</tr>
-</table>
-
-#### Recolección Offline en Campo & Asignación de Trabajo
-<table>
-<tr>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/offline-sin-senal.jpg" alt="PWA Offline sin señal" width="100%"/>
-<p><i>Operatividad 100% offline y sincronización diferida en campo sin señal</i></p>
-</td>
-<td width="50%">
-<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/trabajo-en-campo.jpg" alt="Trabajo Asignado en Campo" width="100%"/>
-<p><i>Gestión de trabajo asignado y levantamientos en dispositivos de campo</i></p>
+<img src="https://raw.githubusercontent.com/JR7-React/JR7-React/main/assets/sgc/offline-sin-senal.jpg" alt="PWA sin señal" width="100%"/>
+<p><i>Operatividad 100% offline en zonas rurales sin cobertura móvil</i></p>
 </td>
 </tr>
 </table>
