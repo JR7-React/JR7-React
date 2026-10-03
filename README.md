@@ -481,8 +481,6 @@ Solución integral diseñada para garantizar la continuidad operativa en la aten
   <img src="https://github-readme-streak-stats.herokuapp.com?user=JR7-React&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 
-<p><i>Telemetría verificada: <strong>+13,000 contribuciones registradas</strong> y <strong>+260 días de racha activa</strong> en desarrollo de software de misión crítica.</i></p>
-
 </div>
 
 ---
