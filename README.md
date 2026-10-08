@@ -15,6 +15,55 @@ uno de monitoreo comunitario y otro de gestión médica, los dos capaces de trab
 
 ---
 
+## 🛠️ Tecnologías
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 💻 **Frontend**
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query_v5-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Material UI](https://img.shields.io/badge/MUI_v5-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![DnD Kit](https://img.shields.io/badge/@dnd--kit-Drag_&_Drop-555555?style=for-the-badge&logoColor=white)
+![React Grid Layout](https://img.shields.io/badge/React_Grid_Layout-Modular_Board-222222?style=for-the-badge&logoColor=white)
+
+#### 🤖 **IA y protocolos**
+![Model Context Protocol](https://img.shields.io/badge/MCP_Server-8A2BE2?style=for-the-badge&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_(MCP)-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OAuth 2.1](https://img.shields.io/badge/OAuth_2.1_+_PKCE-2E9EF7?style=for-the-badge&logoColor=white)
+![SQL AST Guard](https://img.shields.io/badge/SQL_AST_Guard-00FF66?style=for-the-badge&logoColor=black)
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚙️ **Backend y tareas asíncronas**
+![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django_5-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/Django_REST_Framework-A30000?style=for-the-badge&logo=django&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery_5-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_7-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+
+#### 🗄️ **Datos, GIS e infraestructura**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS_3-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Dexie.js](https://img.shields.io/badge/Dexie.js_4_(IndexedDB)-2E9EF7?style=for-the-badge&logoColor=white)
+![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Sistemas en producción
 
 ### SGC — Monitoreo comunitario sin conexión · [sgc.fundesur.org](https://sgc.fundesur.org/)
