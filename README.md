@@ -6,7 +6,7 @@
 
 **Desarrollador full-stack · React / TypeScript · Django · PostgreSQL · Honduras**
 
-Construí y desplegué, como único desarrollador, dos sistemas que hoy usa una fundación de Honduras:
+Construí y desplegué, como único desarrollador, dos sistemas que hoy usa una ONG de Honduras:
 uno de monitoreo comunitario y otro de gestión médica, los dos capaces de trabajar sin conexión.
 
 [LinkedIn](https://www.linkedin.com/in/javi-romero-85486833a/) · [Correo](mailto:javierromero181818@gmail.com)
